@@ -1,0 +1,36 @@
+{
+  "name": "openjampdx.api",
+  "version": "1.0.0",
+  "description": "backend api for openjampdx.com",
+  "scripts": {
+    "format": "prettier --write \"**/*.ts\"",
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nestjs/common": "^4.6.6",
+    "@nestjs/core": "^4.6.6",
+    "@nestjs/testing": "^4.6.6",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.10",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^10.0.3",
+    "prettier": "^1.12.1",
+    "ts-node": "^6.0.2",
+    "tsconfig-paths": "^3.3.1",
+    "tslint": "^5.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJCecil2/openjampdx.git"
+  },
+  "author": "David Drake, Brandon Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJCecil2/openjampdx/issues"
+  },
+  "homepage": "https://github.com/DJCecil2/openjampdx#readme"
+}
