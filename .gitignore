@@ -40,3 +40,7 @@ jspm_packages
 # Project Specific
 .idea
 .DS_Store
+.env
+
+# Yarn
+yarn.lock
